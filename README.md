@@ -40,7 +40,9 @@ Usage
            @Override public void onAnimationEnd(int nextItemPosition) {
            }
           });
-  ```
+         mLoadingView.setDuration(1000);
+        mLoadingView.setRepeat(1000);设置这个会自动
+  ```
 
   3.Call  `mLoadingView.startAnimation();` whenever you want to start animation.
 
